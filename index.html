@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <title>My Instagram feed</title>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            
+          </li>
+              
+       </ul>
+        
+                                              <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-success me-3" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Create a new Post</button>
+                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                           <div class="modal-dialog">
+                             <div class="modal-content">
+                                <div class="modal-header">
+                                   <h1 class="modal-title fs-5" id="exampleModalLabel">Create a New Post</h1>
+                                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      
+                                </div>
+                                   <div class="modal-body">
+                                     <form>
+                                       <div class="mb-3">
+                                         <label for="message-text" class="col-form-label ">Caption:</label>
+                                          <textarea class="form-control mb-3" id="message-text"></textarea>
+                          
+                                          <button type="button" class="btn btn-light"><i class="fa-solid fa-camera"></i></button> 
+                                          <button type="button" class="btn btn-light"><i class="fa-solid fa-location-dot "></i></button>
+                        
+                                        </div>
+                                     </form>
+                                   </div>
+                                                  <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-success">Publish</button>
+                                                  </div>
+                             </div>
+                           </div>
+                         </div>
+                                        <div class="dropdown-center">
+                                             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                               <i class="fa-solid fa-gears"></i>
+                                             </button>
+                                              <ul class="dropdown-menu  dropdown-menu-lg-end">
+                                               <li><a class="dropdown-item" href="#">Action</a></li>
+                                               <li><a class="dropdown-item" href="#">Another action</a></li>
+                                               <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                               <li><hr class="dropdown-divider"></li>
+                                               <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                             </ul>
+                                        </div>
+
+                               
+        
+        
+      </div>
+    </div>
+  </nav>
+                           <!--EMPIEZA EL POST-->
+
+            <ul class="nav nav-pills  my-5 d-flex justify-content-center" id="pills-tab" role="tablist">
+  <li class="nav-item  " role="presentation">
+    <button class="btn btn-outline-secondary  border border-0 active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="btn btn-outline-secondary border border-0" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fa-solid fa-square"></i></button>
+  </li>
+ 
+</ul>
+<div class="tab-content d-flex justify-content-center" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+
+
+                       <!--EMPIEZA CARD-->
+                     <div class="card mb-5" style="width: 35rem;">
+                         <div class=" d-flex justify-content-between">
+                          <h4 class="card-title">Naruto</h4>
+                          <p class="text-body-tertiary"> 10/12</p> 
+                         </div>
+                        <img src="https://images4.alphacoders.com/964/96438.jpg" class="card-img-top" alt="...">
+                           <div class="card-body">
+                            <h6 class="card-title"><b>205 likes</b></h6>
+                             <p class="card-text">Naruto ha sido categorizado entre el top 10 de animes.</p>
+                           </div>
+                     </div>
+                        <!--EMPIEZA 2da CARD-->
+                     <div class="card mb-5" style="width: 35rem;">
+                      <div class=" d-flex justify-content-between">
+                       <h4 class="card-title">Demond Slayer</h4>
+                       <p class="text-body-tertiary"> 10/12</p> 
+                      </div>
+                     <img src="https://wallpapers.com/images/file/demon-slayer-pictures-64p1trbr6gve23rg.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                         <h6 class="card-title"><b>302 likes</b></h6>
+                          <p class="card-text">Aqui otro de nuestros top 10 del momento.</p>
+                        </div>
+                  </div>
+                        <!--EMPIEZA 3ra CARD-->
+                     <div class="card mb-5" style="width: 35rem;">
+                      <div class=" d-flex justify-content-between">
+                       <h4 class="card-title">Guerra de Hechicería</h4>
+                       <p class="text-body-tertiary"> 10/12</p> 
+                      </div>
+                     <img src="https://th.bing.com/th/id/OIP.cm5i3jnWlLw0Cl0CUrhCKwHaEK?rs=1&pid=ImgDetMain" class="card-img-top" alt="...">
+                        <div class="card-body">
+                         <h6 class="card-title "><b>302 likes</b></h6>
+                          <p class="card-text">Jujutsu kaisen esta en el top 5!</p>
+                        </div>
+                  </div>
+
+
+  </div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+
+                             <!--EMPIEZA EL CUADRO DE IMAGENES-->
+
+                             <div class="container text-center ">
+                              <div class="row ">
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-3 "><img src="https://images4.alphacoders.com/964/96438.jpg" class="img-fluid" alt="..."></div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-3 "><img src="https://images4.alphacoders.com/964/96438.jpg" class="img-fluid" alt="..."></div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-3 "><img src="https://images4.alphacoders.com/964/96438.jpg" class="img-fluid" alt="..."></div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-3 "><img src="https://images4.alphacoders.com/964/96438.jpg" class="img-fluid" alt="..."></div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-3 "><img src="https://images4.alphacoders.com/964/96438.jpg" class="img-fluid" alt="..."></div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-3 "><img src="https://images4.alphacoders.com/964/96438.jpg" class="img-fluid" alt="..."></div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-3 "><img src="https://images4.alphacoders.com/964/96438.jpg" class="img-fluid" alt="..."></div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-3 "><img src="https://images4.alphacoders.com/964/96438.jpg" class="img-fluid" alt="..."></div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-3 "><img src="https://images4.alphacoders.com/964/96438.jpg" class="img-fluid" alt="..."></div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-3 "><img src="https://images4.alphacoders.com/964/96438.jpg" class="img-fluid" alt="..."></div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-3 "><img src="https://images4.alphacoders.com/964/96438.jpg" class="img-fluid" alt="..."></div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-3 "><img src="https://images4.alphacoders.com/964/96438.jpg" class="img-fluid" alt="..."></div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-3 "><img src="https://images4.alphacoders.com/964/96438.jpg" class="img-fluid" alt="..."></div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-3 "><img src="https://images4.alphacoders.com/964/96438.jpg" class="img-fluid" alt="..."></div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-3 "><img src="https://images4.alphacoders.com/964/96438.jpg" class="img-fluid" alt="..."></div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-3 "><img src="https://images4.alphacoders.com/964/96438.jpg" class="img-fluid" alt="..."></div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-3 "><img src="https://images4.alphacoders.com/964/96438.jpg" class="img-fluid" alt="..."></div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-3 "><img src="https://images4.alphacoders.com/964/96438.jpg" class="img-fluid" alt="..."></div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-3 "><img src="https://images4.alphacoders.com/964/96438.jpg" class="img-fluid" alt="..."></div>
+                                <div class="col-sm-12 col-md-6 col-lg-3 mb-3 "><img src="https://images4.alphacoders.com/964/96438.jpg" class="img-fluid" alt="..."></div>
+                              </div>
+                            </div>
+
+
+
+  </div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
+  <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>
+</div>               
+
+
+  
+
+
+
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
